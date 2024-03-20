@@ -10,14 +10,14 @@ public class MostMentionedWord {
 
         Map<String, Integer> wordCounts = new HashMap<>();
 
-        // Split text into words
+        // Split words
         String[] words = text.split(" ");
 
         // Calculate the number of each word
         for (String word : words) {
             String lowercaseWord = word.toLowerCase();
 
-            // If this word already exists in wordCounts, increase its count,
+            // If this word already exists in wordCounts, increase the count,
             // otherwise add it as 1
             if (wordCounts.containsKey(lowercaseWord)) {
                 wordCounts.put(lowercaseWord, wordCounts.get(lowercaseWord) + 1);
