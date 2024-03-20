@@ -41,7 +41,7 @@ public class MostMentionedWord {
 
         // Print
         if (mostFrequentWord != null) {
-            System.out.println("Most mentioned word : " + mostFrequentWord + ", Number : " + maxCount);
+            System.out.println("Most mentioned word: " + mostFrequentWord + ", Number: " + maxCount);
         } else {
             System.out.println("Word not found! ");
         }
